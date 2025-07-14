@@ -146,23 +146,20 @@ section.especialidades flex{
   box-shadow: 0 0 8px #ffffff78;
 }
 
-.especialidades .especialidades-box i{
-  font-size: 40px;
-  color: #00ff08;
-}
-
 .especialidades .especialidades-box h3{
   font-size: 28px;
   margin: 15px 0;
 }
 
-.especialidades .especialidades-box .btn-social button{
+.btn-social button{
   width: 60px;
   height: 60px;
   border-radius: 50%;
   border: none;
-  background-color: #000;
+  background-color: #00ff08;
+  font-size: 22px;  
   cursor: pointer;
+  margin: 0 5px;
   transition: .2s;
 }
 
@@ -300,4 +297,37 @@ form .btn-enviar input{
   font-weight: 700;
   cursor: pointer;
   transition: .2s;
+}
+
+/* estilo do rodapé */
+footer{
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px #ffffff2e;
+}
+
+footer .flex{
+  justify-content: space-between;
+}
+
+footer .line-footer{
+  padding: 20px 0;
+}
+
+.borda{
+  border-top: 2px solid #00ff08;
+}
+
+footer .line-footer p i{
+  color: #00ff08;
+  font-size: 22px;
+}
+
+footer .line-footer p a{
+  color: #fff;
+}
+
+@media screen and (max-width: 1020px){
+  .menu-desktop, .btn-contato{
+    display: none;
+  }
 }
